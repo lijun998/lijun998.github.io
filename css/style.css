@@ -262,11 +262,14 @@ nav ul li.current a {
   z-index: 2
 }
 .intro-content h1 {
-  font-size: 80px;
+  font-size: 70px;
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
+}
+.intro-content h1 span{
+  font-size: 80px
 }
 .social {
   display: block;
@@ -347,7 +350,9 @@ nav ul li.current a {
 ==================================================*/
 
 .about-image img {
-  min-width: 100%;
+  min-width: 5rem;
+  min-height: 5rem;
+  border-radius: 50%
 }
 .about-text {
   margin-bottom: 20px;
@@ -393,7 +398,9 @@ nav ul li.current a {
 
 /* Services
 ==================================================*/
-
+.c_red{
+  color: red;
+}
 .services-section {
   background: #f6f6f6;
 }
